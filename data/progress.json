@@ -11,7 +11,12 @@
     },
     "VS_Code": {
       "initial": 3,
-      "history": []
+      "history": [
+        {
+          "value": 6,
+          "date": "2025-12-10T13:48:56.388728"
+        }
+      ]
     },
     "Docker_Fundamentals": {
       "initial": 4,
