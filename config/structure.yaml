@@ -1,0 +1,187 @@
+topics:
+  Development_Environment:
+    prerequisites: None
+    competency_target: Ability to set up and configure a complete development environment
+    subsections:
+      Dev_Containers:
+        description: containerized development environments
+      VS_Code:
+        description: IDE setup and essential extensions
+      Docker_Fundamentals:
+        description: understanding containerization
+
+  Git_Skills:
+    prerequisites: Basic command-line knowledge
+    competency_target: Proficiency in Git workflows and collaborative development practices
+    subsections:
+      Branching_Strategies:
+        description: feature branches, main/develop workflows
+      Squash_and_Rebase:
+        description: clean commit history
+      Conventional_Commit:
+        description: commit message standard
+      Pull_Requests:
+        description: code review process
+      Git_Workflows:
+        description: collaborative development patterns
+
+  Modern_DOTNET_Practices:
+    prerequisites: C# programming basics
+    competency_target: Write clean, maintainable .NET code following SOLID principles
+    subsections:
+      Design_Patterns:
+        description: common patterns (Repository, Factory, Strategy, etc.)
+      Dependency_Injection:
+        description: IoC containers and lifetime management
+      Configuration_Management:
+        description: appsettings, environment variables, secrets
+      Async_Await:
+        description: asynchronous programming patterns
+      LINQ:
+        description: language integrated query
+
+  Testing:
+    prerequisites: Modern .NET Practices
+    competency_target: Implement comprehensive testing strategies across all levels
+    subsections:
+      TDD:
+        description: test-first approach
+      Unit_Testing:
+        description: xUnit, NUnit frameworks
+      Mocking:
+        description: using Moq for test isolation
+      Test_Organization:
+        description: AAA pattern (Arrange, Act, Assert)
+      Code_Coverage:
+        description: measuring and improving test coverage
+      Integration_Testing:
+        description: testing component interactions
+      Automated_Integration_Testing:
+        description: test automation frameworks
+      E2E_Testing:
+        description: full application flow testing
+
+  Cloud_Development:
+    prerequisites: Modern .NET Practices
+    competency_target: Deploy and manage Azure Functions with database and messaging integration
+    subsections:
+      Azure_Portal:
+        description: navigation and resource management
+      Function_Apps_App_Plans:
+        description: serverless computing
+      Cosmos_DB:
+        description: NoSQL database operations
+      EventHub:
+        description: event streaming platform
+      Azure_Storage:
+        description: blobs, queues, tables
+      Aspire:
+        description: cloud-native application development
+
+  Error_Handling_and_Resilience:
+    prerequisites: Cloud Development
+    competency_target: Build resilient applications that handle failures gracefully
+    subsections:
+      Exception_Handling_Strategies:
+        description: custom exception handlers with logging
+      Retry_Policies:
+        description: using Polly for resilience
+      Circuit_Breaker_Pattern:
+        description: preventing cascading failures
+      Cancellation_Tokens:
+        description: proper async cancellation patterns
+      Graceful_Degradation:
+        description: fallback strategies
+
+  Observability_and_Monitoring:
+    prerequisites: Cloud Development
+    competency_target: Implement comprehensive observability for production applications
+    subsections:
+      OpenTelemetry:
+        description: distributed tracing and metrics
+      App_Insights:
+        description: application performance monitoring
+      Structured_Logging:
+        description: semantic logging with Serilog
+      Health_Checks:
+        description: endpoint monitoring
+      Alerting:
+        description: proactive issue detection
+
+  CI_CD:
+    prerequisites: Git Skills, Cloud Development
+    competency_target: Create and maintain automated CI/CD pipelines for production deployments
+    subsections:
+      GitHub_Actions:
+        description: workflow automation
+      Release_Please:
+        description: semantic versioning and changelog generation
+      Build_Automation:
+        description: compilation, testing, packaging
+      Deployment_Strategies:
+        description: blue-green, canary releases
+      Environment_Management:
+        description: dev, staging, production
+      Large_Scale_Deployments:
+        description: multi-wave release strategies
+
+  Kubernetes_and_Container_Orchestration:
+    prerequisites: Docker fundamentals, Cloud Development
+    competency_target: Deploy and manage containerized applications on Kubernetes
+    subsections:
+      Kubernetes_Fundamentals:
+        description: pods, services, deployments
+      Kubectl:
+        description: command-line operations
+      Helm_Charts:
+        description: package management
+      Scaling_Strategies:
+        description: horizontal and vertical scaling
+
+  Full_Stack_Development:
+    prerequisites: Modern .NET Practices
+    competency_target: Build complete full-stack web applications
+    subsections:
+      ASP_NET_Core_Web_API:
+        description: RESTful API development
+      ASP_NET_Web_Development:
+        description: Blazor development
+      Frontend_Integration:
+        description: consuming APIs from UI
+      Authentication_Authorization:
+        description: identity management
+
+  AI_Software_Development:
+    prerequisites: Modern .NET Practices
+    competency_target: Leverage AI tools to enhance development productivity
+    subsections:
+      Prompt_Engineering:
+        description: effective AI interaction
+      Context_Engineering:
+        description: optimizing AI responses
+      Reusable_Prompts:
+        description: creating prompt libraries
+      GitHub_Copilot:
+        description: AI-assisted development
+      Code_Review_with_AI:
+        description: using AI for quality improvement
+
+  Documentation:
+    prerequisites: None
+    competency_target: Create comprehensive technical documentation for projects
+    subsections:
+      User_Documentation:
+        description: using Hugo for static sites
+      API_Documentation:
+        description: OpenAPI/Swagger
+      Technical_Writing:
+        description: clear and concise documentation
+      Markdown_Mastery:
+        description: formatting and structure
+      Architecture_Diagrams:
+        description: visualizing system design
+
+files:
+  - notes.md
+  - resources.md
+  - progress.md
