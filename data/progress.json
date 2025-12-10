@@ -1,0 +1,270 @@
+{
+  "Development_Environment": {
+    "Dev_Containers": {
+      "initial": 2,
+      "history": []
+    },
+    "VS_Code": {
+      "initial": 3,
+      "history": []
+    },
+    "Docker_Fundamentals": {
+      "initial": 4,
+      "history": []
+    }
+  },
+  "Git_Skills": {
+    "Branching_Strategies": {
+      "initial": 1,
+      "history": []
+    },
+    "Squash_and_Rebase": {
+      "initial": 2,
+      "history": []
+    },
+    "Conventional_Commit": {
+      "initial": 3,
+      "history": []
+    },
+    "Pull_Requests": {
+      "initial": 4,
+      "history": []
+    },
+    "Git_Workflows": {
+      "initial": 3,
+      "history": []
+    }
+  },
+  "Modern_DOTNET_Practices": {
+    "Design_Patterns": {
+      "initial": 4,
+      "history": []
+    },
+    "Dependency_Injection": {
+      "initial": 3,
+      "history": []
+    },
+    "Configuration_Management": {
+      "initial": 2,
+      "history": []
+    },
+    "Async_Await": {
+      "initial": 1,
+      "history": []
+    },
+    "LINQ": {
+      "initial": 2,
+      "history": []
+    }
+  },
+  "Testing": {
+    "TDD": {
+      "initial": 3,
+      "history": []
+    },
+    "Unit_Testing": {
+      "initial": 4,
+      "history": []
+    },
+    "Mocking": {
+      "initial": 5,
+      "history": []
+    },
+    "Test_Organization": {
+      "initial": 6,
+      "history": []
+    },
+    "Code_Coverage": {
+      "initial": 1,
+      "history": []
+    },
+    "Integration_Testing": {
+      "initial": 2,
+      "history": []
+    },
+    "Automated_Integration_Testing": {
+      "initial": 4,
+      "history": []
+    },
+    "E2E_Testing": {
+      "initial": 6,
+      "history": []
+    }
+  },
+  "Cloud_Development": {
+    "Azure_Portal": {
+      "initial": 3,
+      "history": []
+    },
+    "Function_Apps_App_Plans": {
+      "initial": 7,
+      "history": []
+    },
+    "Cosmos_DB": {
+      "initial": 8,
+      "history": []
+    },
+    "EventHub": {
+      "initial": 9,
+      "history": []
+    },
+    "Azure_Storage": {
+      "initial": 2,
+      "history": []
+    },
+    "Aspire": {
+      "initial": 3,
+      "history": []
+    }
+  },
+  "Error_Handling_and_Resilience": {
+    "Exception_Handling_Strategies": {
+      "initial": 4,
+      "history": []
+    },
+    "Retry_Policies": {
+      "initial": 5,
+      "history": []
+    },
+    "Circuit_Breaker_Pattern": {
+      "initial": 6,
+      "history": []
+    },
+    "Cancellation_Tokens": {
+      "initial": 4,
+      "history": []
+    },
+    "Graceful_Degradation": {
+      "initial": 2,
+      "history": []
+    }
+  },
+  "Observability_and_Monitoring": {
+    "OpenTelemetry": {
+      "initial": 1,
+      "history": []
+    },
+    "App_Insights": {
+      "initial": 3,
+      "history": []
+    },
+    "Structured_Logging": {
+      "initial": 4,
+      "history": []
+    },
+    "Health_Checks": {
+      "initial": 5,
+      "history": []
+    },
+    "Alerting": {
+      "initial": 6,
+      "history": []
+    }
+  },
+  "CI_CD": {
+    "GitHub_Actions": {
+      "initial": 3,
+      "history": []
+    },
+    "Release_Please": {
+      "initial": 2,
+      "history": []
+    },
+    "Build_Automation": {
+      "initial": 1,
+      "history": []
+    },
+    "Deployment_Strategies": {
+      "initial": 3,
+      "history": []
+    },
+    "Environment_Management": {
+      "initial": 5,
+      "history": []
+    },
+    "Large_Scale_Deployments": {
+      "initial": 4,
+      "history": []
+    }
+  },
+  "Kubernetes_and_Container_Orchestration": {
+    "Kubernetes_Fundamentals": {
+      "initial": 3,
+      "history": []
+    },
+    "Kubectl": {
+      "initial": 2,
+      "history": []
+    },
+    "Helm_Charts": {
+      "initial": 1,
+      "history": []
+    },
+    "Scaling_Strategies": {
+      "initial": 2,
+      "history": []
+    }
+  },
+  "Full_Stack_Development": {
+    "ASP_NET_Core_Web_API": {
+      "initial": 3,
+      "history": []
+    },
+    "ASP_NET_Web_Development": {
+      "initial": 4,
+      "history": []
+    },
+    "Frontend_Integration": {
+      "initial": 5,
+      "history": []
+    },
+    "Authentication_Authorization": {
+      "initial": 6,
+      "history": []
+    }
+  },
+  "AI_Software_Development": {
+    "Prompt_Engineering": {
+      "initial": 4,
+      "history": []
+    },
+    "Context_Engineering": {
+      "initial": 3,
+      "history": []
+    },
+    "Reusable_Prompts": {
+      "initial": 2,
+      "history": []
+    },
+    "GitHub_Copilot": {
+      "initial": 4,
+      "history": []
+    },
+    "Code_Review_with_AI": {
+      "initial": 2,
+      "history": []
+    }
+  },
+  "Documentation": {
+    "User_Documentation": {
+      "initial": 1,
+      "history": []
+    },
+    "API_Documentation": {
+      "initial": 2,
+      "history": []
+    },
+    "Technical_Writing": {
+      "initial": 3,
+      "history": []
+    },
+    "Markdown_Mastery": {
+      "initial": 4,
+      "history": []
+    },
+    "Architecture_Diagrams": {
+      "initial": 5,
+      "history": []
+    }
+  }
+}

@@ -36,13 +36,7 @@ def run_initial_survey(config):
     """
     Runs ONLY the initial baseline survey.
     Does NOT update history.
-    Does NOT overwrite an existing baseline.
     """
-    # Check if progress exists already
-    if os.path.exists(PROGRESS_FILE):
-        print("progress.json already exists — initial survey cannot be run again.")
-        print("Delete data/progress.json if you want to restart the baseline.")
-        return
 
     progress = initialize_progress_structure(config)
 

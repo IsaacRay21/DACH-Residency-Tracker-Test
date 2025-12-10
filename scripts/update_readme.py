@@ -106,6 +106,7 @@ def update_readme(progress):
     sections.append(f"![Progress Chart]({CHART_FILE})\n")  # Embed chart at top
 
     for topic, skills in progress.items():
+        print(topic)
         sections.append(generate_topic_markdown(topic, skills))
 
     markdown = "\n".join(sections)

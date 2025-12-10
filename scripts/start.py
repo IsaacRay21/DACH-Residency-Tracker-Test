@@ -20,18 +20,10 @@ def main():
     print("\n=== Running baseline survey ===")
     # Initialize progress.json if it doesn't exist
     progress_file = "../data/progress.json"
-    os.makedirs(os.path.dirname(progress_file), exist_ok=True)
     if not os.path.exists(progress_file):
-        progress = initialize_progress_structure(config)
-        # Save empty structure
-        import json
-        with open(progress_file, "w", encoding="utf-8") as f:
-            json.dump(progress, f, indent=2)
-    else:
-        progress = load_progress()
-
-    # Run survey to fill initial scores
-    run_initial_survey(config)
+        run_initial_survey(config)
+    
+    progress = load_progress()
 
     # Step 4: Update README
     print("\n=== Updating README ===")
