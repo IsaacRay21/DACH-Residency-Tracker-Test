@@ -1,1 +1,0 @@
-# Testing - resources.md
