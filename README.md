@@ -6,7 +6,7 @@ Automatically generated progress overview.
 
 | Skill | Current | Δ | Actions |
 |-------|---------|----|---------|
-| **Dev Containers** | 2 | 0 ➖ | [➕](../../issues/new?title=Increase%20Dev_Containers&body=update%20Development_Environment%20Dev_Containers%20+1) [➖](../../issues/new?title=Decrease%20Dev_Containers&body=update%20Development_Environment%20Dev_Containers%20-1) |
+| **Dev Containers** | 3 | +1 🔼 | [➕](../../issues/new?title=Increase%20Dev_Containers&body=update%20Development_Environment%20Dev_Containers%20+1) [➖](../../issues/new?title=Decrease%20Dev_Containers&body=update%20Development_Environment%20Dev_Containers%20-1) |
 | **VS Code** | 3 | 0 ➖ | [➕](../../issues/new?title=Increase%20VS_Code&body=update%20Development_Environment%20VS_Code%20+1) [➖](../../issues/new?title=Decrease%20VS_Code&body=update%20Development_Environment%20VS_Code%20-1) |
 | **Docker Fundamentals** | 4 | 0 ➖ | [➕](../../issues/new?title=Increase%20Docker_Fundamentals&body=update%20Development_Environment%20Docker_Fundamentals%20+1) [➖](../../issues/new?title=Decrease%20Docker_Fundamentals&body=update%20Development_Environment%20Docker_Fundamentals%20-1) |
 
