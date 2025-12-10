@@ -6,7 +6,7 @@ from init_repo import create_topic_folders_with_files, load_config
 from baseline_survey import load_config as load_survey_config, initialize_progress_structure, run_initial_survey
 from update_readme import update_readme, load_progress
 
-CONFIG_FILE = "../config/structure.yaml"
+CONFIG_FILE = "config/structure.yaml"
 
 def main():
     # Step 1: Load config

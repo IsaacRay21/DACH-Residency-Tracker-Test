@@ -1,8 +1,8 @@
 import json
 from pathlib import Path
 
-PROGRESS_FILE = "../data/progress.json"
-README_FILE = "../README.md"
+PROGRESS_FILE = "data/progress.json"
+README_FILE = "README.md"
 
 # Set your GitHub repository URL here
 GITHUB_REPO_URL = "IsaacRay21/DACH-Residency-Tracker-Test"
@@ -32,8 +32,8 @@ def generate_button_links(topic, skill):
     """
     topic_enc = topic.replace(" ", "%20")
     skill_enc = skill.replace(" ", "_")
-    plus_url = f"{GITHUB_REPO_URL}/issues/new?title=Increase%20{skill_enc}&body=update%20{topic_enc}%20{skill_enc}%20+1"
-    minus_url = f"{GITHUB_REPO_URL}/issues/new?title=Decrease%20{skill_enc}&body=update%20{topic_enc}%20{skill_enc}%20-1"
+    plus_url = f"/issues/new?title=Increase%20{skill_enc}&body=update%20{topic_enc}%20{skill_enc}%20+1"
+    minus_url = f"/issues/new?title=Decrease%20{skill_enc}&body=update%20{topic_enc}%20{skill_enc}%20-1"
     return f"[➕]({plus_url}) [➖]({minus_url})"
 
 def generate_topic_markdown(topic, entries):

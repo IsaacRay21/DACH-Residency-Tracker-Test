@@ -3,8 +3,8 @@ import yaml
 import os
 from datetime import datetime
 
-CONFIG_FILE = "../config/structure.yaml"
-PROGRESS_FILE = "../data/progress.json"
+CONFIG_FILE = "config/structure.yaml"
+PROGRESS_FILE = "data/progress.json"
 
 os.makedirs(os.path.dirname(PROGRESS_FILE), exist_ok=True)
 

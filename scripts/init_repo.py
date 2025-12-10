@@ -1,8 +1,8 @@
 import os
 import yaml
 
-CONFIG_FILE = "../config/structure.yaml"
-TOPICS_DIR = "../topics"
+CONFIG_FILE = "config/structure.yaml"
+TOPICS_DIR = "topics"
 
 def load_config():
     with open(CONFIG_FILE, "r", encoding="utf-8") as f:
